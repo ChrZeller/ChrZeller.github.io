@@ -1,0 +1,20 @@
+---
+title: "Code, Connect, and Convey"
+image: monkeys.png
+author: "Christian Zeller"
+date: "2023-01-14"
+categories: [news]
+---
+
+## What started it
+During my journey with the fast.ai course, a superb course on Deep Learning, I stumbled upon a piece of advice that shifted my perspective on knowledge sharing and learning: "Start blogging." Well, here we are!
+
+## Helps You Learn and Teach
+One of the best ways to understand a subject is to explain it to others. Writing a blog post is an excellent method to do this. It not only reinforces my own understanding but also contributes to the learning of others.
+
+## Meeting New People
+Through blogging, I hope I have the chance to meet and connect with people who responded to my posts. It's a wonderful way to engage with a community of like-minded individuals and expand my professional network.
+
+## Write for Your Past Self
+When considering topics, I think about what would have helped me a year or even a week ago. We're often best positioned to assist those just a step behind us on the learning path. Our recent experiences can provide valuable insights to others who are just starting out.
+

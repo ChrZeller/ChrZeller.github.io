@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Code, Connect, and Convey",
+    "section": "",
+    "text": "During my journey with the fast.ai course, a superb course on Deep Learning, I stumbled upon a piece of advice that shifted my perspective on knowledge sharing and learning: “Start blogging.” Well, here we are!"
+  },
+  {
+    "objectID": "posts/welcome/index.html#what-started-it",
+    "href": "posts/welcome/index.html#what-started-it",
+    "title": "Code, Connect, and Convey",
+    "section": "",
+    "text": "During my journey with the fast.ai course, a superb course on Deep Learning, I stumbled upon a piece of advice that shifted my perspective on knowledge sharing and learning: “Start blogging.” Well, here we are!"
+  },
+  {
+    "objectID": "posts/welcome/index.html#helps-you-learn-and-teach",
+    "href": "posts/welcome/index.html#helps-you-learn-and-teach",
+    "title": "Code, Connect, and Convey",
+    "section": "Helps You Learn and Teach",
+    "text": "Helps You Learn and Teach\nOne of the best ways to understand a subject is to explain it to others. Writing a blog post is an excellent method to do this. It not only reinforces my own understanding but also contributes to the learning of others."
+  },
+  {
+    "objectID": "posts/welcome/index.html#meeting-new-people",
+    "href": "posts/welcome/index.html#meeting-new-people",
+    "title": "Code, Connect, and Convey",
+    "section": "Meeting New People",
+    "text": "Meeting New People\nThrough blogging, I hope I have the chance to meet and connect with people who responded to my posts. It’s a wonderful way to engage with a community of like-minded individuals and expand my professional network."
+  },
+  {
+    "objectID": "posts/welcome/index.html#write-for-your-past-self",
+    "href": "posts/welcome/index.html#write-for-your-past-self",
+    "title": "Code, Connect, and Convey",
+    "section": "Write for Your Past Self",
+    "text": "Write for Your Past Self\nWhen considering topics, I think about what would have helped me a year or even a week ago. We’re often best positioned to assist those just a step behind us on the learning path. Our recent experiences can provide valuable insights to others who are just starting out."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Statistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions",
+    "section": "",
+    "text": "While recently brushing up on causal inference, I learned about a method that I had never heard of before, but it should be more widely known: the Synthetic Control Method (SCM). Developed in the early 21st century, SCM is one way researchers, economists, and policy-makers approach causal inference in observational studies. Let’s dive deep into this method, understand its mechanics, and explore its far-reaching applications."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#understanding-synthetic-control-method",
+    "href": "posts/post-with-code/index.html#understanding-synthetic-control-method",
+    "title": "Statistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions",
+    "section": "Understanding Synthetic Control Method",
+    "text": "Understanding Synthetic Control Method\nAt its core, SCM is a statistical method used for evaluating the impact of a policy intervention, event, or treatment when randomized control trials are not feasible. Traditional methods often struggle with comparative case studies due to the uniqueness of each case and the lack of a clear counterfactual - a scenario of “what would have happened in the absence of the intervention.” SCM addresses this by constructing a synthetic control group.\n\nHow Does It Work?\nThe Synthetic Control Method creates a weighted combination of control units that best approximate the characteristics of the treated unit before the intervention. In simple terms, it creates a ‘synthetic’ version of the treatment group using data from similar but unaffected units. The treatment effect is then estimated by comparing the post-intervention outcomes of the treated unit with its synthetic counterpart.\nThis method hinges on a few key assumptions:\n\nPredictive Power: The pre-intervention characteristics should reliably predict post-intervention outcomes.\nNo Interference: The intervention on the treated unit should not affect the control units.\nHomogeneous Effects: The effect of predictors on outcomes should be similar across treated and control units."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#application-in-policy-analysis",
+    "href": "posts/post-with-code/index.html#application-in-policy-analysis",
+    "title": "Statistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions",
+    "section": "Application in Policy Analysis",
+    "text": "Application in Policy Analysis\nOne of the landmark applications of SCM was in assessing the impact of California’s Proposition 99, a tobacco control program. Researchers created a synthetic control using data from other states and found that California’s program significantly reduced tobacco consumption compared to what would have occurred without the intervention."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#advantages-of-synthetic-control",
+    "href": "posts/post-with-code/index.html#advantages-of-synthetic-control",
+    "title": "Statistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions",
+    "section": "Advantages of Synthetic Control",
+    "text": "Advantages of Synthetic Control\n\nPrecision in Comparative Case Studies\nSCM allows for a nuanced analysis in situations where each case is unique, and there are no true comparable units. By constructing a synthetic control, it provides a more precise and convincing estimate of the intervention effect.\n\n\nVisual Interpretability\nOne of the striking features of SCM is its visual appeal. The comparison between the treated unit’s actual outcomes and the synthetic control’s outcomes over time provides an intuitive and powerful demonstration of the intervention’s effect.\n\n\nRobustness\nSCM is less prone to model specification errors compared to traditional regression methods. It provides a more reliable analysis in the presence of confounding variables and when the number of potential predictors is large."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#challenges-and-considerations",
+    "href": "posts/post-with-code/index.html#challenges-and-considerations",
+    "title": "Statistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions",
+    "section": "Challenges and Considerations",
+    "text": "Challenges and Considerations\nDespite its strengths, SCM is not without limitations. The method requires a substantial amount of data to construct a reliable synthetic control, and in cases where suitable control units are not available, its effectiveness diminishes. Moreover, the interpretation of results demands caution, as with all observational studies."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#beyond-policy-analysis",
+    "href": "posts/post-with-code/index.html#beyond-policy-analysis",
+    "title": "Statistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions",
+    "section": "Beyond Policy Analysis",
+    "text": "Beyond Policy Analysis\nThe utility of SCM extends beyond policy evaluation. It’s being increasingly used in fields like environmental studies, healthcare, and even sports economics. For instance, SCM has been used to evaluate the impact of environmental regulations on air quality and to assess the effects of healthcare interventions in specific regions. In industry it should be useful for evaluating marketing campaigns or product launches amid other things."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#conclusion",
+    "href": "posts/post-with-code/index.html#conclusion",
+    "title": "Statistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe Synthetic Control Method represents a significant leap forward in causal inference, particularly in policy analysis and comparative case studies. Its ability to construct a credible counterfactual when randomized control trials are not possible makes it an indispensable tool in the data analyst’s toolkit. As the method continues to evolve and adapt, its potential applications seem boundless, promising more nuanced insights across various fields."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I’m a Data Scientist from Munich with expertise in machine learning and predictive modeling. Open to consulting work."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About me",
+    "section": "EXPERIENCE",
+    "text": "EXPERIENCE\n\nSenior Data Scientist\n06/18—10/21\n- Led and managed diverse Data Science, Machine Learning, and AI projects. - Collaborated on app development initiatives, integrating data products. - Utilized technologies such as R, Python, SQL, git, Power BI, and NLP.\n\n\nData and Analytics Specialist\n09/15—05/18\n- Spearheaded integration of data analytics in underwriting processes. - Developed predictive models using RShiny and integrated external data. - Provided insights influencing strategic decisions in European markets.\n\n\nFraud Analyst\n03/11—11/13\n- Developed and deployed multivariate predictive models reducing fraud losses. - Produced visualizations to communicate complex data patterns. - Reported risk analysis findings, aiding informed decision-making. - Spearheaded development of KPIs to evaluate fraud metrics."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About me",
+    "section": "EDUCATION",
+    "text": "EDUCATION\n\nLudwig-Maximilian-Universität, München\n10/02—08/09\nDipl. Volkswirt"
+  },
+  {
+    "objectID": "about.html#continuing-education-professional-development",
+    "href": "about.html#continuing-education-professional-development",
+    "title": "About me",
+    "section": "CONTINUING EDUCATION & PROFESSIONAL DEVELOPMENT",
+    "text": "CONTINUING EDUCATION & PROFESSIONAL DEVELOPMENT\n07/22—07/23\n\nBayesian Data Analysis Course, Hasso Plattner Institut\n\nGained knowledge in probabilistic modeling and Bayesian theories.\n\n\n\nPractical Deep Learning for Coders, fast.ai\n\nAcquired expertise in deep learning with Python and PyTorch."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About me",
+    "section": "SKILLS",
+    "text": "SKILLS\nProgramming Languages and Libraries - R: Proficiency in R programming, RShiny, ggplot2. - Python: Experience in Pandas, Matplotlib, Scikit-Learn, PyTorch. - SQL: Proficient in database management and manipulation.\nData Analysis and Machine Learning - Statistical Analysis: Strong skills in Bayesian Data Analysis and Causal Inference. - Machine Learning: Experience in ML models, neural networks, and computer vision. - NLP: Proficient in NLP techniques, experience with Hugging Face library.\nData Visualization and Reporting Tools - Power BI: Experienced in data visualizations and reports. - MS Office: Proficient in Excel for data analysis and reporting.\nSoftware and Tools - GitHub & Jupyter: Proficient in version control and data analysis workflows. - JIRA and Confluence: Skilled in project management and team collaboration."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Digital Economist 👋",
+    "section": "",
+    "text": "Unlocking the Potential of Transfer Learning in Computer Vision: Doing More with Less Data\n\n\n\n\n\n\n\ndeep learning\n\n\ncomputer vision\n\n\nfoundation models\n\n\n\n\n\n\n\n\n\n\n\nMay 18, 2023\n\n\nChristian Zeller\n\n\n\n\n\n\n  \n\n\n\n\nStatistical Doppelgängers: How Synthetic Control Clones Can Answear Causal Questions\n\n\n\n\n\n\n\nnews\n\n\ncausal inference\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 17, 2023\n\n\nChristian Zeller\n\n\n\n\n\n\n  \n\n\n\n\nCode, Connect, and Convey\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 14, 2023\n\n\nChristian Zeller\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/transfer-learning/index.html",
+    "href": "posts/transfer-learning/index.html",
+    "title": "Unlocking the Potential of Transfer Learning in Computer Vision: Doing More with Less Data",
+    "section": "",
+    "text": "There is one exciting technique made possible by recent advancements in training large neural networks that deserves more attention: transfer learning. This approach has democratized access to advanced CV capabilities, allowing for robust applications even in scenarios with limited datasets. In this post, we delve into how transfer learning is revolutionizing CV tasks by minimizing the dependency on extensive data.\n\n\nTransfer learning involves taking a model trained on one task and repurposing it for another related task. In the context of computer vision, this typically means using models pre-trained on massive datasets, like ImageNet, and adapting them to specific CV tasks. The beauty of this method lies in its ability to leverage learned features and patterns, significantly reducing the need for new, extensive training data.\n\n\nTraditional neural network training for CV tasks often requires vast amounts of labeled data, which can be a major bottleneck. This is where transfer learning changes the game. By using pre-trained models, the need for large-scale data collection and labeling is substantially reduced, making advanced CV tasks more accessible and feasible, even for smaller organizations or projects with limited resources.\n\n\n\n\n\nEfficiency in Data Usage: Transfer learning allows for the development of accurate models with significantly less data. This is particularly beneficial in specialized fields where data is scarce or expensive to acquire.\nTime and Cost Savings: Training models from scratch is time-consuming and resource-intensive. Transfer learning speeds up this process, leading to faster deployment and reduced costs.\nVersatility Across Use Cases: Pre-trained models are adaptable to a wide range of CV tasks, from facial recognition and medical imaging to autonomous vehicle navigation and agricultural monitoring.\nImproved Performance in Niche Domains: Even in niche areas with limited data, transfer learning can yield high-performing models by building upon pre-learned features that are relevant across various visual tasks.\n\n\n\n\n\n\nIn medical diagnostics, where collecting large datasets of imaging can be challenging due to privacy concerns and rarity of certain conditions, transfer learning allows for the creation of accurate diagnostic tools with smaller sets of patient data.\n\n\n\nFor environmental applications like wildlife tracking or deforestation assessment, where data collection can be logistically challenging, transfer learning enables the development of effective monitoring systems using limited image datasets.\n\n\n\nIn retail, transfer learning aids in developing sophisticated visual search tools and inventory management systems, even when comprehensive product image databases are not available.\n\n\n\n\n\nChoose the Right Pre-Trained Model: Start with a model that has been trained on a large, diverse dataset. Models like VGG, ResNet, or Inception can serve as a solid foundation.\nData Preprocessing and Augmentation: Tailor your limited dataset to the task by preprocessing and augmenting the images. This increases the variability and richness of your dataset.\nFine-Tuning the Model: Adapt the pre-trained model to your specific task. This might involve training only the top layers of the model while freezing the rest.\nIterative Testing and Validation: Regularly test the model on your specific task and iteratively adjust the training process to optimize performance.\n\n\n\n\nTransfer learning in computer vision is a powerful technique that enables the creation of sophisticated, high-performing models without the traditional requirement of large datasets. Its versatility and efficiency open up a plethora of applications, making advanced computer vision more accessible and practical across various industries and domains."
+  },
+  {
+    "objectID": "posts/transfer-learning/index.html#what-is-transfer-learning",
+    "href": "posts/transfer-learning/index.html#what-is-transfer-learning",
+    "title": "Unlocking the Potential of Transfer Learning in Computer Vision: Doing More with Less Data",
+    "section": "",
+    "text": "Transfer learning involves taking a model trained on one task and repurposing it for another related task. In the context of computer vision, this typically means using models pre-trained on massive datasets, like ImageNet, and adapting them to specific CV tasks. The beauty of this method lies in its ability to leverage learned features and patterns, significantly reducing the need for new, extensive training data.\n\n\nTraditional neural network training for CV tasks often requires vast amounts of labeled data, which can be a major bottleneck. This is where transfer learning changes the game. By using pre-trained models, the need for large-scale data collection and labeling is substantially reduced, making advanced CV tasks more accessible and feasible, even for smaller organizations or projects with limited resources."
+  },
+  {
+    "objectID": "posts/transfer-learning/index.html#key-benefits-of-transfer-learning-in-cv",
+    "href": "posts/transfer-learning/index.html#key-benefits-of-transfer-learning-in-cv",
+    "title": "Unlocking the Potential of Transfer Learning in Computer Vision: Doing More with Less Data",
+    "section": "",
+    "text": "Efficiency in Data Usage: Transfer learning allows for the development of accurate models with significantly less data. This is particularly beneficial in specialized fields where data is scarce or expensive to acquire.\nTime and Cost Savings: Training models from scratch is time-consuming and resource-intensive. Transfer learning speeds up this process, leading to faster deployment and reduced costs.\nVersatility Across Use Cases: Pre-trained models are adaptable to a wide range of CV tasks, from facial recognition and medical imaging to autonomous vehicle navigation and agricultural monitoring.\nImproved Performance in Niche Domains: Even in niche areas with limited data, transfer learning can yield high-performing models by building upon pre-learned features that are relevant across various visual tasks."
+  },
+  {
+    "objectID": "posts/transfer-learning/index.html#practical-applications-and-use-cases",
+    "href": "posts/transfer-learning/index.html#practical-applications-and-use-cases",
+    "title": "Unlocking the Potential of Transfer Learning in Computer Vision: Doing More with Less Data",
+    "section": "",
+    "text": "In medical diagnostics, where collecting large datasets of imaging can be challenging due to privacy concerns and rarity of certain conditions, transfer learning allows for the creation of accurate diagnostic tools with smaller sets of patient data.\n\n\n\nFor environmental applications like wildlife tracking or deforestation assessment, where data collection can be logistically challenging, transfer learning enables the development of effective monitoring systems using limited image datasets.\n\n\n\nIn retail, transfer learning aids in developing sophisticated visual search tools and inventory management systems, even when comprehensive product image databases are not available."
+  },
+  {
+    "objectID": "posts/transfer-learning/index.html#implementing-transfer-learning-in-your-cv-projects",
+    "href": "posts/transfer-learning/index.html#implementing-transfer-learning-in-your-cv-projects",
+    "title": "Unlocking the Potential of Transfer Learning in Computer Vision: Doing More with Less Data",
+    "section": "",
+    "text": "Choose the Right Pre-Trained Model: Start with a model that has been trained on a large, diverse dataset. Models like VGG, ResNet, or Inception can serve as a solid foundation.\nData Preprocessing and Augmentation: Tailor your limited dataset to the task by preprocessing and augmenting the images. This increases the variability and richness of your dataset.\nFine-Tuning the Model: Adapt the pre-trained model to your specific task. This might involve training only the top layers of the model while freezing the rest.\nIterative Testing and Validation: Regularly test the model on your specific task and iteratively adjust the training process to optimize performance."
+  },
+  {
+    "objectID": "posts/transfer-learning/index.html#conclusion",
+    "href": "posts/transfer-learning/index.html#conclusion",
+    "title": "Unlocking the Potential of Transfer Learning in Computer Vision: Doing More with Less Data",
+    "section": "",
+    "text": "Transfer learning in computer vision is a powerful technique that enables the creation of sophisticated, high-performing models without the traditional requirement of large datasets. Its versatility and efficiency open up a plethora of applications, making advanced computer vision more accessible and practical across various industries and domains."
+  }
+]

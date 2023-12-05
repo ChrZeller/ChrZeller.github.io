@@ -1,0 +1,87 @@
+---
+title: "About me"
+image: photo1.png
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/christian-zeller-5b586283/
+    - icon: github
+      text: Github
+      href: https://github.com/ChrZeller
+    - icon: envelope
+      text: Email
+      href: mailto:christianjosef@web.de
+    - icon: Hugging
+      text: HuggingFace
+      href: https://huggingface.co/ChrZeller   
+
+---
+I'm a Data Scientist from Munich with expertise in machine learning and predictive modeling. Open to consulting work. 
+
+
+## EXPERIENCE
+
+### Senior Data Scientist
+*06/18—10/21*  
+- Led and managed diverse Data Science, Machine Learning, and AI projects.
+- Collaborated on app development initiatives, integrating data products.
+- Utilized technologies such as R, Python, SQL, git, Power BI, and NLP.
+
+### Data and Analytics Specialist
+*09/15—05/18*  
+- Spearheaded integration of data analytics in underwriting processes.
+- Developed predictive models using RShiny and integrated external data.
+- Provided insights influencing strategic decisions in European markets.
+
+### Fraud Analyst 
+*03/11—11/13*  
+- Developed and deployed multivariate predictive models reducing fraud losses.
+- Produced visualizations to communicate complex data patterns.
+- Reported risk analysis findings, aiding informed decision-making.
+- Spearheaded development of KPIs to evaluate fraud metrics.
+
+## EDUCATION
+
+### Ludwig-Maximilian-Universität, München
+*10/02—08/09*  
+**Dipl. Volkswirt**
+
+## CONTINUING EDUCATION & PROFESSIONAL DEVELOPMENT
+*07/22—07/23*
+
+### Bayesian Data Analysis Course, Hasso Plattner Institut
+ 
+- Gained knowledge in probabilistic modeling and Bayesian theories.
+
+### Practical Deep Learning for Coders, fast.ai
+- Acquired expertise in deep learning with Python and PyTorch.
+
+## SKILLS
+
+**Programming Languages and Libraries**
+- R: Proficiency in R programming, RShiny, ggplot2.
+- Python: Experience in Pandas, Matplotlib, Scikit-Learn, PyTorch.
+- SQL: Proficient in database management and manipulation.
+
+**Data Analysis and Machine Learning**
+- Statistical Analysis: Strong skills in Bayesian Data Analysis and Causal Inference.
+- Machine Learning: Experience in ML models, neural networks, and computer vision.
+- NLP: Proficient in NLP techniques, experience with Hugging Face library.
+
+**Data Visualization and Reporting Tools**
+- Power BI: Experienced in data visualizations and reports.
+- MS Office: Proficient in Excel for data analysis and reporting.
+
+**Software and Tools**
+- GitHub & Jupyter: Proficient in version control and data analysis workflows.
+- JIRA and Confluence: Skilled in project management and team collaboration.
+
+
+
+
